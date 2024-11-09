@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway/Raleway-VariableFont_wght.woff"),
+    url("../font/Raleway/Raleway-VariableFont_wght.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Raleway-italic";
+    src: url("../font/Raleway/Raleway-Italic-VariableFont_wght.woff")
+    url("../font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format(truetype);;
+}
+
+
+html {
+    background-color: rgb(243, 237, 237);
+}
+
+body {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    width: 1160px;
+    box-sizing: border-box;
+}
+
+/* Début partie en-tête */
+
+header {
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17abb3;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+header div {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 2px;
+}
+
+h1 {
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+h2{
+    font-family: "Lato";
+}
+
+header span {
+    font-family: "Raleway";
+    font-weight: 800;
+}
+
+h1, h2, header span, header i {
+    color: white;
+}
+
+.header__container__links {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    position: relative;
+    left: 18px;
+}
+
+.header__link {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.header__link i {
+    margin-right: 8px;
+}
+
+/* Fin partie en-tête */
