@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: "Raleway-italic";
-    src: url("../font/Raleway/Raleway-Italic-VariableFont_wght.woff")
-    url("../font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format(truetype);;
+    src: url("../font/Raleway/Raleway-Italic-VariableFont_wght.woff"),
+    url("../font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format(truetype);
 }
 
 
@@ -125,7 +125,7 @@ hr {
     padding: 0.1px;
 }
 
-h3, main span,strong, aside span, li {
+h3, main span,strong, aside span, li, footer span {
     font-family: "Lato";
 }
 
@@ -224,3 +224,28 @@ i {
 }
 
 /* Fin partie principale */
+
+/* Début footer */
+
+footer {
+    background-color: #17abb3;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+footer span {
+    margin-top: 10px;
+    font-style: italic;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Fin footer */
